@@ -1,6 +1,0 @@
-In the gazebo picking part is quite complex. The physics engine simulation is not precise enough to simulate a real pick most of the times.
-Because of that we are going to do a little trick. Move the gripper to the target position and create a virtual fixed joint between the object the gripper. 
-This way when the gripper moves it will move together with the object.
-
-Install the required package with git clone.
-If git is not installed on your machine install it using "sudo apt install git"
